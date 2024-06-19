@@ -2,7 +2,7 @@
 import React, { useEffect, useRef } from 'react';
 import Navbar from '../Components/navbar';
 import Footer from '../Components/footer';
-
+import image from '../assets/con_bg.gif'}
 
 
 
@@ -54,7 +54,7 @@ export default function TalktoMe() {
         <div className="h-29"></div>
 
         <section ref={(el) => (sectionRefs.current[0] = el)}>
-          <div class="relative w-full h-96"><img class="absolute h-full w-full object-cover object-center" src="src/assets/con_bg.gif" alt="nature image" />
+          <div class="relative w-full h-96"><img class="absolute h-full w-full object-cover object-center" src={image} alt="nature image" />
             <div class="absolute inset-0 h-full w-full bg-black/50"></div>
             <div class="relative pt-28 text-center ">
               <h2 class="p-5 text-2xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl 2xl:text-6xl font-bold font-mono eading-none tracking-tight text-gray-900  dark:text-white   ...">Contact Information</h2>
