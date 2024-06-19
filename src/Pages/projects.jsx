@@ -2,6 +2,10 @@ import React, { useState, useEffect, useRef } from 'react';
 import Navbar from '../Components/navbar'
 import Footer from '../Components/footer'
 import Card from '../Components/card'
+import image1 from "../assets/Project/Bank_ms.jpg"
+import image2 from "../assets/Project/Cal_Js.jpg"
+import image3 from "../assets/Project/portfilo.jpg"
+import image4 from "../assets/Project/website_project.jpg"
 
 
 export default function Projects() {
@@ -61,10 +65,10 @@ export default function Projects() {
 
         <section>
           <div className="flex justify-center flex-wrap ">
-            <Card img="src/assets/project/Cal_Js.jpg" title="Simple JavaScript Calculator" details="This mini project was done by me to develop my html, css, javascript knowledge, first I watched a youtube video and then it was made with my knowledge. Here the styles section is made by me with my knowledge." />
-            <Card img="src/assets/project/Bank_ms.jpg" title="Bank Management System" details="This mini project is a project given to me by the university. This mini project is made with the content of python programming language only" />
-            <Card img="src/assets/project/website_project.jpg" title="Green Planet Living Unity" details="This mini project is a project given to me by the university. This mini project is a website created using HTML, CSS, JS (vue) language." />
-            <Card img="src/assets/project/portfilo.jpg" title="Portfolio Website" details="If I mention this mini project, this is my portfilo website. This is made using react which is a javascript framework and styled using Tailwind Css which is a css framework." />
+            <Card img={image1} title="Simple JavaScript Calculator" details="This mini project was done by me to develop my html, css, javascript knowledge, first I watched a youtube video and then it was made with my knowledge. Here the styles section is made by me with my knowledge." />
+            <Card img={image2} title="Bank Management System" details="This mini project is a project given to me by the university. This mini project is made with the content of python programming language only" />
+            <Card img={image3} title="Green Planet Living Unity" details="This mini project is a project given to me by the university. This mini project is a website created using HTML, CSS, JS (vue) language." />
+            <Card img={image4} title="Portfolio Website" details="If I mention this mini project, this is my portfilo website. This is made using react which is a javascript framework and styled using Tailwind Css which is a css framework." />
             <Card img="" title="" details="" />
             <Card img="" title="" details="" />
 
