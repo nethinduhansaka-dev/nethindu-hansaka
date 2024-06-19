@@ -11,7 +11,7 @@ import TalktoMe from './Pages/talktoMe'
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/nethindu-hansaka/">
      <header>
       <Routes>
         <Route path='/' element={<Dashbord />}></Route>
