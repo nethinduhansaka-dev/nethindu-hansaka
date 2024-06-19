@@ -57,7 +57,7 @@ const About = () => {
           <div class="max-w-screen-md p-6  border border-gray-200 rounded-lg shadow  dark:border-gray-700 ...">
             <img
               class="w-32 h-32 rounded-full mb-4 "
-              src="src/assets/pro-img.jpg"
+              src={import.meta.env.BASE_URL +"src/assets/profile-image.jpg"}
               alt=""
             />
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
