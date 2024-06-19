@@ -2,7 +2,7 @@
 import React, { useEffect, useRef } from 'react';
 import Navbar from '../Components/navbar';
 import Footer from '../Components/footer';
-import image from '../assets/con_bg.gif'}
+import image from '../assets/con_bg.gif';
 
 
 
