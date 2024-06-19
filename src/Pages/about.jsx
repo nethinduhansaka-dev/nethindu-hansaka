@@ -4,6 +4,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import Navbar from "../Components/navbar";
 import Footer from "../Components/footer";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import image from "../assets/profile-image.jpg"
 
 const About = () => {
 
@@ -57,7 +58,7 @@ const About = () => {
           <div class="max-w-screen-md p-6  border border-gray-200 rounded-lg shadow  dark:border-gray-700 ...">
             <img
               class="w-32 h-32 rounded-full mb-4 "
-              src={import.meta.env.BASE_URL +"src/assets/profile-image.jpg"}
+              src={image}
               alt=""
             />
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
