@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Navbar from '../Components/navbar';
 import Footer from '../Components/footer';
+import image from '../assets/Project/Bank_ms.jpg'
 
 
 export default function Dashboard() {
@@ -104,7 +105,7 @@ export default function Dashboard() {
                     >
                         <figure className="mt-10 flex justify-center lg:justify-right pt-20 relative max-w-lg transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
                             <a href="projects">
-                                <img className="rounded-lg" src="src/assets/Project/Bank_ms.jpg" alt="Project" />
+                                <img className="rounded-lg" src={image} alt="Project" />
                             </a>
                             <figcaption className="absolute px-4 text-lg text-white bottom-15">
                                 <p>Click this image to go to my project page</p>
