@@ -2,10 +2,10 @@ import React, { useState, useEffect, useRef } from 'react';
 import Navbar from '../Components/navbar'
 import Footer from '../Components/footer'
 import Card from '../Components/card'
-import image1 from "../assets/Project/Bank_ms.jpg"
-import image2 from "../assets/Project/Cal_Js.jpg"
-import image3 from "../assets/Project/portfilo.jpg"
-import image4 from "../assets/Project/website_project.jpg"
+import image1 from "../assets/Project/Cal_Js.jpg"
+import image2 from "../assets/Project/Bank_ms.jpg"
+import image3 from "../assets/Project/website_project.jpg"
+import image4 from "../assets/Project/portfilo.jpg"
 
 
 export default function Projects() {
